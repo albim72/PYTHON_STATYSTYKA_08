@@ -22,3 +22,6 @@ print(f"mediana: {mediana}")
 print("_________________________________________________________________________________")
 
 kolory = ["red","green","blue","yellow","orange","purple","brown","pink","gray","cyan","magenta"]
+
+#skala kategorialna: rodzaj samochodów
+rodzaje = ["sedan","hatchback","suv","truck","convertible","van","pickup","wagon","minivan"]
