@@ -11,3 +11,15 @@ print(wynik_egzaminu)
 
 df = pd.DataFrame({'Godziny nauki':godziny_nauki, 'Wynik':wynik_egzaminu})
 print(df.head(5))
+
+#wizualizacja danych
+plt.scatter(df['Godziny nauki'],df['Wynik'],color='royalblue')
+plt.xlabel('Godziny nauki')
+plt.ylabel('Wynik egzaminu')
+plt.title('Zależność: czas nauki - wynik egzaminu')
+plt.grid(True)
+plt.show()
+
+#obliczenie współczynnika korelacji
+korelacja = df['Godziny nauki'].corr(df['Wynik'])
+print(f"współczynnik korelacji: {korelacja}")
