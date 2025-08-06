@@ -1,0 +1,1 @@
+utwórz plik xlsx i wstaw mi do pobrania, struktura pliku: data, produkt, region, sprzedawca, ilość, cena jednostkowa, utwórz 1000 rekordów w akruszu dane
